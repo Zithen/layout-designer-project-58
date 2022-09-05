@@ -91,6 +91,7 @@ table {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   font-family: opensans;
@@ -124,7 +125,23 @@ h3 {
   font-size: 34px;
 }
 
-.width-main {
+.display-flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.width-page {
+  width: 100%;
+}
+
+.width-section {
   width: 1110px;
 }
 
@@ -132,12 +149,26 @@ h3 {
   padding: 100px 0;
 }
 
-.bg-main {
+.bg-main::before {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+
   background-image: url('../styles/images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
 
-  opacity: 0.9;
+  opacity: 0.1;
+
+  content: "";
+}
+
+.z-index-10000 {
+  z-index: 10000;
+}
+
+.z-index-10100 {
+  z-index: 10100;
 }
 
 .height-h1-header {
