@@ -111,6 +111,8 @@ h3 {
 }
 
 h1 {
+  position: relative;
+
   font-size: 72px;
 }
 
@@ -128,4 +130,20 @@ h3 {
 
 .padding-main {
   padding: 100px 0;
+}
+
+.bg-main {
+  background-image: url('../styles/images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.9;
+}
+
+.header-img {
+  position: absolute;
+  top: -55px;
+  right: -270px;
+
+  height: 525px;
 }
