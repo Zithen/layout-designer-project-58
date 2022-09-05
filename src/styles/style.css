@@ -140,10 +140,17 @@ h3 {
   opacity: 0.9;
 }
 
+.height-h1-header {
+  height: 525px;
+}
+
 .header-img {
   position: absolute;
   top: -55px;
   right: -270px;
+}
 
-  height: 525px;
+.column-main {
+  columns: 2;
+  column-gap: 30px;
 }
