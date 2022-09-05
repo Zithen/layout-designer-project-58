@@ -133,6 +133,10 @@ h3 {
   justify-content: center;
 }
 
+.flex-end {
+  align-items: flex-end;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -147,10 +151,6 @@ h3 {
 
 .padding-main {
   padding: 100px 0;
-}
-
-.text-orange {
-  color: #fe8a02;
 }
 
 .bg-white {
@@ -203,6 +203,23 @@ h3 {
   content: "";
 }
 
+.text-orange {
+  color: #fe8a02;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
 .height-h1-header {
   height: 525px;
 }
@@ -214,6 +231,20 @@ h3 {
 }
 
 .column-main {
-  columns: 2;
+  column-count: 2;
   column-gap: 30px;
+}
+
+.btn {
+  padding: 12px 24px;
+
+  font-weight: 700;
+}
+
+.btn-anchor {
+  text-decoration: none;
+}
+
+.btn-orange {
+  background-color: #fe8a02;
 }
