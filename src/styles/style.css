@@ -149,7 +149,43 @@ h3 {
   padding: 100px 0;
 }
 
-.bg-main::before {
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-transparent-white {
+  background-color: #d7ccc0;
+}
+
+.bg-light {
+  background-color: #f5f4f0;
+}
+
+.bg-main {
+  background-color: #fe8a02;
+}
+
+.bg-main-dark {
+  background-color: #42413c;
+}
+
+.bg-dark {
+  background-color: #2a2626;
+}
+
+.bg-transparent-dark {
+  background-color: #908d8b;
+}
+
+.bg-brown {
+  background-color: #b09a81;
+}
+
+.bg-blue {
+  background-color: #1085c5;
+}
+
+.bg-image::before {
   position:absolute;
   width: 100%;
   height: 100%;
@@ -161,14 +197,6 @@ h3 {
   opacity: 0.1;
 
   content: "";
-}
-
-.z-index-10000 {
-  z-index: 10000;
-}
-
-.z-index-10100 {
-  z-index: 10100;
 }
 
 .height-h1-header {
