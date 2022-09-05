@@ -89,6 +89,10 @@ table {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   font-family: opensans;
   font-style: normal;
   font-weight: 400;
@@ -116,4 +120,12 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+.width-main {
+  width: 1110px;
+}
+
+.padding-main {
+  padding: 100px 0;
 }
