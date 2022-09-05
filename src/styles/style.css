@@ -38,3 +38,33 @@
        url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.svg#Neucha') format('svg'); /* Legacy iOS */
 }
+
+body {
+  font-family: opensans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+}
+
+h1,
+h2,
+h3 {
+  font-family: neucha;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
