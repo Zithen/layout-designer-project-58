@@ -42,8 +42,7 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
 
   font-family: opensans, sans-serif;
   font-style: normal;
@@ -128,8 +127,6 @@ h3 {
 }
 
 .btn {
-  width: 100px;
-  height: 100px;
   padding: 12px 24px;
 
   font-weight: 700;
@@ -152,30 +149,58 @@ h3 {
   display: flex;
 }
 
-.flex-center {
+.filter {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.flex-x-center {
   justify-content: center;
 }
 
-.flex-end {
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-y-center {
+  align-items: center;
+}
+
+.flex-y-end {
   align-items: flex-end;
+}
+
+.flex-y-start {
+  align-items: flex-start;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-.height-h1-header {
+.height-525 {
   height: 525px;
 }
 
 .header-img {
   position: absolute;
-  top: 55px;
-  left: 270px;
+  top: -55px;
+  right: -270px;
+}
+
+.margin-0 {
+  margin: 0;
 }
 
 .padding-100-0 {
   padding: 100px 0;
+}
+
+.padding-bottom-30 {
+  padding: 0 0 30px;
+}
+
+.pos-absolute {
+  position: absolute;
 }
 
 .pos-relative {
@@ -197,6 +222,10 @@ h3 {
 
 .text-upper {
   text-transform: uppercase;
+}
+
+.bottom-move-100 {
+  bottom: -100px;
 }
 
 .width-100-proc {
