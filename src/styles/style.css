@@ -157,6 +157,10 @@ h3 {
   justify-content: center;
 }
 
+.flex-x-space-between {
+  justify-content: space-between;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -189,6 +193,10 @@ h3 {
 
 .margin-0 {
   margin: 0;
+}
+
+.nav-menu {
+  list-style: none;
 }
 
 .padding-100-0 {
