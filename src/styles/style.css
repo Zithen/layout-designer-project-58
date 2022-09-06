@@ -126,6 +126,10 @@ h3 {
   z-index: 10000;
 }
 
+.bottom-move-100 {
+  bottom: -100px;
+}
+
 .btn {
   padding: 12px 24px;
 
@@ -181,6 +185,10 @@ h3 {
   flex-wrap: wrap;
 }
 
+.font-size-52 {
+  font-size: 52px;
+}
+
 .height-525 {
   height: 525px;
 }
@@ -193,6 +201,12 @@ h3 {
 
 .margin-0 {
   margin: 0;
+}
+
+.nav-card-style {
+
+
+  padding: 24px;
 }
 
 .nav-menu {
@@ -228,12 +242,12 @@ h3 {
   vertical-align: middle;
 }
 
-.text-upper {
-  text-transform: uppercase;
+.text-left {
+  text-align: left;
 }
 
-.bottom-move-100 {
-  bottom: -100px;
+.text-upper {
+  text-transform: uppercase;
 }
 
 .width-100-proc {
