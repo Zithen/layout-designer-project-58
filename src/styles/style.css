@@ -356,6 +356,10 @@ h3 {
   position: relative;
 }
 
+.text-brown {
+	color: #b09a81;
+}
+
 .text-orange {
   color: #fe8a02;
 }
