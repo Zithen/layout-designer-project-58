@@ -360,6 +360,14 @@ h3 {
 	color: #b09a81;
 }
 
+.text-transparent-dark {
+  color: #908d8b;
+}
+
+.text-transparent-white {
+	color: #d7ccc0;
+}
+
 .text-orange {
   color: #fe8a02;
 }
