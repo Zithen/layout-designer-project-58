@@ -276,14 +276,14 @@ h3 {
   font-size: 64px;
 }
 
-.height-525 {
-  height: 525px;
+.height-460 {
+  height: 460px;
 }
 
-.header-img {
+section .header-img {
   position: absolute;
   top: -55px;
-  right: -270px;
+  left: 270px;
 }
 
 .line-height-1 {
@@ -407,4 +407,9 @@ h3 {
 .z-index-10100 {
   position: relative;
   z-index: 10100;
+}
+
+.z-index-10200 {
+  position: relative;
+  z-index: 10200;
 }
