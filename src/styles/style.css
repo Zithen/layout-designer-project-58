@@ -200,6 +200,11 @@ h3 {
   column-gap: 30px;
 }
 
+.column-2-122 {
+  column-count: 2;
+  column-gap: 122px;
+}
+
 .column-span {
 	column-span: all;
 }
@@ -256,8 +261,16 @@ h3 {
     font-weight: 700;
 }
 
+.font-size-12 {
+  font-size: 12px;
+}
+
 .font-size-14 {
   font-size: 14px;
+}
+
+.font-size-18 {
+  font-size: 18px;
 }
 
 .font-size-24 {
@@ -294,6 +307,10 @@ section .header-img {
   margin: 0;
 }
 
+.margin-bottom-16 {
+	margin-bottom: 16px;
+}
+
 .margin-bottom-20 {
   margin-bottom: 20px;
 }
@@ -328,10 +345,6 @@ section .header-img {
   padding: 0;
 }
 
-.padding-left-10 {
-  padding-left: 10px;
-}
-
 .padding-24 {
   padding: 24px;
 }
@@ -352,8 +365,24 @@ section .header-img {
   padding: 0 0 40px;
 }
 
+.padding-bottom-55 {
+  padding-bottom: 55px;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.padding-left-55 {
+  padding-left: 55px;
+}
+
 .padding-top-5 {
   padding-top: 5px;
+}
+
+.padding-top-55 {
+  padding-top: 55px;
 }
 
 .pos-absolute {
