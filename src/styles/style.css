@@ -340,12 +340,20 @@ section .header-img {
   padding: 100px 0;
 }
 
+.padding-bottom-5 {
+  padding-bottom: 5px;
+}
+
 .padding-bottom-30 {
   padding: 0 0 30px;
 }
 
 .padding-bottom-40 {
   padding: 0 0 40px;
+}
+
+.padding-top-5 {
+  padding-top: 5px;
 }
 
 .pos-absolute {
