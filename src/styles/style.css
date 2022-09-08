@@ -319,6 +319,10 @@ h3 {
 	border: 0;
 }
 
+.height-49 {
+  height: 49px;
+}
+
 .height-50 {
   height: 50px;
 }
@@ -355,6 +359,10 @@ section .header-img {
 
 .margin-bottom-30 {
   margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
 }
 
 .margin-left-30 {
@@ -481,6 +489,10 @@ section .header-img {
 
 .text-upper {
   text-transform: uppercase;
+}
+
+.width-148 {
+  width: 148px;
 }
 
 .width-100-proc {
