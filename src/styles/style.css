@@ -360,6 +360,10 @@ section .header-img {
 	color: #b09a81;
 }
 
+.text-main-dark {
+  color: #42413c;
+}
+
 .text-transparent-dark {
   color: #908d8b;
 }
