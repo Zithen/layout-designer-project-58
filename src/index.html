@@ -12,7 +12,7 @@
 
 <!-- first page -->
 
-  <header class="width-100-proc padding-100-0 display-flex flex-x-center bg-image bg-light">
+  <header class="width-100-proc padding-100-0 display-flex flex-x-center bg-image bg-light z-index-10100">
     <section class="width-1110 pos-relative">
 
       <h1 class="height-460">
@@ -183,7 +183,7 @@
 
 <!--Эффект ИКЕА -->
 
-    <section class="width-100-proc padding-100-0 bg-image pos-relative display-flex flex-column flex-y-center" id="ikea-effect">
+    <section class="width-100-proc padding-100-0 bg-image pos-relative display-flex flex-column flex-y-center bg-light" id="ikea-effect">
         <section class="width-1110 column-2-30">
           <figure>
             <img src="styles/images/1.png" alt="Two coworkers at PC" class="filter text-vertical-center max-width-100-proc bg-white z-index-10100">
@@ -232,7 +232,7 @@
 
 <!--Искажение новизны -->
 
-    <section class="width-100-proc padding-100-0 bg-image pos-relative display-flex flex-column flex-y-center" id="distortion-of-novelty">
+    <section class="width-100-proc padding-100-0 bg-image pos-relative display-flex flex-column flex-y-center bg-light" id="distortion-of-novelty">
         <section class="width-1110 column-2-30">
           <figure>
             <img src="styles/images/3.png" alt="Hexlet with trash" class="filter text-vertical-center max-width-100-proc bg-white z-index-10100">
@@ -281,7 +281,7 @@
 
 <!--Ошибка планирования -->
 
-    <section class="width-100-proc padding-100-0 bg-image pos-relative display-flex flex-column flex-y-center" id="errors-in-planning">
+    <section class="width-100-proc padding-100-0 bg-image pos-relative display-flex flex-column flex-y-center bg-light" id="errors-in-planning">
         <section class="width-1110 column-2-30">
           <figure>
             <img src="styles/images/3.png" alt="Hexlet with trash" class="filter text-vertical-center max-width-100-proc bg-white z-index-10100">
@@ -305,13 +305,16 @@
 
   </main>
 
-  <footer class="display-flex flex-y-center flex-column width-100-proc padding-100-0">
+  <footer class="width-100-proc display-flex flex-y-center flex-column width-100-proc padding-100-0">
     <section class="width-1110 bg-main-dark column-2-30 padding-top-55 padding-bottom-55">
-      <h3 class="font-neucha-normal text-white padding-left-55">Хотите узнать больше?<br> Подпишитесь на обновления</h3>
+      <h3 class="text-white padding-left-55 text-vertical-center">Хотите узнать больше?<br> Подпишитесь на обновления</h3>
 
       <p class="text-white font-size-18">Электронная почта</p>
 
-      <input type="text" name="email" class="bg-white" id="">
+      <form>
+        <input type="text" name="email" class="bg-white height-50 form-reset" id="email" size="50">
+        <label for="email" class="btn-send btn-orange"></label>
+      </form>
 
       <p class="text-white font-size-12">Подписываясь, вы принимаете <a href="" class="text-white">правила сервиса</a></p>
 

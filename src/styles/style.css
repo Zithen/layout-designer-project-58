@@ -195,6 +195,27 @@ h3 {
   background-color: #fe8a02;
 }
 
+.btn-send {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	width: 70px;
+	height: 50px;
+	margin-left: -5px;
+}
+
+.btn-send::before {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+	width: 20px;
+	height: 20px;
+
+	background: url('../styles/images/send.svg') no-repeat center center/cover;
+
+	content: "";
+}
+
 .column-2-30 {
   column-count: 2;
   column-gap: 30px;
@@ -287,6 +308,14 @@ h3 {
 
 .font-size-64 {
   font-size: 64px;
+}
+
+.form-reset {
+	border: 0;
+}
+
+.height-50 {
+  height: 50px;
 }
 
 .height-460 {
@@ -421,7 +450,7 @@ section .header-img {
   text-align: center;
 }
 
-.tex-vertical-center {
+.text-vertical-center {
   vertical-align: middle;
 }
 
