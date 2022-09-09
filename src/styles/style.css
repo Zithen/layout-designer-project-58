@@ -345,8 +345,8 @@ h3 {
 
 section .header-img {
   position: absolute;
-  top: -65px;
-  left: 280px;
+  top: -55px;
+  right: -270px;
 }
 
 .line-height-1 {
