@@ -216,6 +216,12 @@ h3 {
 	content: "";
 }
 
+.card-select:hover h2,
+.card-select:hover h3 {
+	background-color: #fe8a02;
+	color: #fff
+}
+
 .column-2-30 {
   column-count: 2;
   column-gap: 30px;
@@ -405,7 +411,6 @@ div .header-img {
 }
 
 .nav-card-style {
-  display: block;
   width: 350px;
   padding: 24px;
 }
@@ -535,4 +540,9 @@ input::placeholder {
 .z-index-10200 {
   position: relative;
   z-index: 10200;
+}
+
+.card-select:hover {
+	background-color: #fe8a02;
+	color: #fff
 }
