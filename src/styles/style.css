@@ -512,7 +512,7 @@ input::placeholder {
 }
 
 .width-100-proc {
-  width: 100%;
+  width: 100vw;
 }
 
 .width-350 {
