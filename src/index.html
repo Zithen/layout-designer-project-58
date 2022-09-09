@@ -337,29 +337,40 @@
 
   </main>
 
-  <footer class="width-100-proc display-flex flex-y-center flex-column width-100-proc padding-100-0">
-    <section class="width-1110 bg-main-dark display-flex padding-left-55 padding-top-55 padding-bottom-55">
-      <h3 class="text-white flex-basis-540 text-vertical-center">Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+  <footer class="width-100-proc display-flex flex-x-center padding-100-0">
+<!-- Main section inside footer -->
+    <section class="width-1110 display-flex flex-column flex-y-center">
+<!-- Dark section inside footer -->
+      <section class="width-1110 display-flex bg-main-dark height-190">
+<!-- Dark section content -->
+        <h3 class="text-white flex-basis-540 margin-right-30 padding-left-55 padding-bottom-55 padding-top-55">Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+<!-- Input field -->
+        <section class="display-flex flex-column flex-x-center flex-basis-540 text-white">
+          <p class="font-size-18 margin-bottom-9">Электронная почта</p>
 
-      <section class="display-flex flex-column">
-        <p class="text-white font-size-18">Электронная почта</p>
+          <form action="" class="display-flex">
+            <input type="text" name="email" placeholder="Ваша электронная почта" class="bg-white height-50 form-reset padding-15 flex-basis-423" id="email">
+            <label for="email"></label>
+            <button class="bg-orange height-50 btn-send border-reset"></button>
+          </form>
 
-        <form>
-          <input type="text" name="email" placeholder="Ваша электронная почта" class="bg-white height-50 form-reset" id="email" size="30">
-          <label for="email" class="btn-send btn-orange"></label>
-        </form>
-
-        <p class="text-white font-size-12">Подписываясь, вы принимаете <a href="" class="text-white">правила сервиса</a></p>
+          <p class="font-size-12">Подписываясь, вы принимаете <a href="" class="text-white">правила сервиса</a></p>
+        </section>
+<!-- Input field END -->
+<!-- Dark section content END -->
       </section>
+<!-- Dark section inside footer END -->
+<!-- Contact section inside footer -->
+      <section class="text-center margin-top-60 font-size-14">
+        <p class="margin-bottom-16">&copy; 2022 Владислав Неудачин</p>
+
+        <p class="margin-bottom-16">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" target="_blank">Yash Ranadive Cognitive Biases in Programming</a></p>
+
+        <p><a href="https://ru.hexlet.io/" target="_blank">Курсы программирования Hexlet</a></p>
+      </section>
+<!-- Contact section inside footer END -->
     </section>
-
-    <section class="padding-100-0 text-center">
-      <p class="margin-bottom-16">&copy; 2022 Владислав Неудачин</p>
-
-      <p class="margin-bottom-16">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" target="_blank">Yash Ranadive Cognitive Biases in Programming</a></p>
-
-      <p><a href="https://ru.hexlet.io/" target="_blank">Курсы программирования Hexlet</a></p>
-    </section>
+<!-- Main section inside footer END -->
   </footer>
 </body>
 </html>
