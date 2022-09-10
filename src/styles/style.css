@@ -50,7 +50,7 @@ table {
   box-sizing: border-box;
 }
 /* reset END */
-
+/*------------------------------------------------------------------*/
 /* font-face */
 /* open-sans-regular - latin-ext_latin_cyrillic-ext_cyrillic */
 @font-face {
@@ -93,7 +93,7 @@ table {
        url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.svg#Neucha') format('svg'); /* Legacy iOS */
 }
 /* font-face END */
-
+/*----------------------------------------------------------------------*/
 /* vars */
 :root {
 	--dark: #2a2626;
@@ -107,7 +107,7 @@ table {
 	--blue: #1085c5;
 }
 /* vars END */
-
+/*---------------------------------------------------------------------------*/
 /* tag styles */
 body {
   display: flex;
@@ -152,7 +152,7 @@ input::placeholder {
 	opacity: 0.2;
 }
 /* tag-styles END */
-
+/*-------------------------------------------------------------------------*/
 /* b */
 .bg-blue {
   background-color: var(--blue);
@@ -252,7 +252,7 @@ input::placeholder {
 	content: "";
 }
 /* b END */
-
+/*-----------------------------------------------------------------------*/
 /* c */
 .card-select:hover {
 	background-color: var(--main);
@@ -265,13 +265,13 @@ input::placeholder {
 	color: var(--white)
 }
 /* c END */
-
+/*-----------------------------------------------------------------------*/
 /* d */
 .display-flex {
   display: flex;
 }
 /* d END */
-
+/*----------------------------------------------------------------------------*/
 /* f */
 .filter {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -345,7 +345,7 @@ input::placeholder {
   font-size: 64px;
 }
 /* f END */
-
+/*----------------------------------------------------------------------------*/
 /* h */
 .height-50 {
   height: 50px;
@@ -359,13 +359,13 @@ input::placeholder {
   height: 525px;
 }
 /* h END */
-
+/*----------------------------------------------------------------------------*/
 /* l */
 .line-height-1 {
   line-height: 1;
 }
 /* l END */
-
+/*----------------------------------------------------------------------------*/
 /* m */
 .margin-bottom-9 {
 	margin-bottom: 9px;
@@ -411,7 +411,7 @@ input::placeholder {
 	margin-top: 100px;
 }
 /* m END */
-
+/*----------------------------------------------------------------------------*/
 /* p */
 .padding-15 {
 	padding: 15px;
@@ -469,7 +469,7 @@ input::placeholder {
   position: relative;
 }
 /* p END */
-
+/*----------------------------------------------------------------------------*/
 /* t */
 .text-brown {
 	color: var(--brown);
@@ -511,7 +511,7 @@ input::placeholder {
   color: var(--white);
 }
 /* t END */
-
+/*----------------------------------------------------------------------------*/
 /* w */
 .width-100-proc {
   width: 100vw;
@@ -529,7 +529,7 @@ input::placeholder {
   width: 1110px;
 }
 /* w END */
-
+/*----------------------------------------------------------------------------*/
 /* z */
 .z-index-10100 {
   position: relative;
