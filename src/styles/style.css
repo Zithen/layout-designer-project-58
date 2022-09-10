@@ -90,6 +90,19 @@ table {
        url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.svg#Neucha') format('svg'); /* Legacy iOS */
 }
 
+:root {
+	--dark: #2a2626;
+	--white: #fff;
+	--transparent-white: #d7ccc0;
+	--light: #f5f4f0;
+	--main: #fe8a02;
+	--main-dark: #42413c;
+	--transparent-dark: #908d8b;
+	--brown: #b09a81;
+	--blue: #1085c5;
+	--orange: #fe8a02;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -124,39 +137,39 @@ h3 {
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .bg-transparent-white {
-  background-color: #d7ccc0;
+  background-color: var(--transparent-white);
 }
 
 .bg-light {
-  background-color: #f5f4f0;
+  background-color: var(--light);
 }
 
 .bg-main {
-  background-color: #fe8a02;
+  background-color: var(--main);
 }
 
 .bg-main-dark {
-  background-color: #42413c;
+  background-color: var(--main-dark);
 }
 
 .bg-dark {
-  background-color: #2a2626;
+  background-color: var(--dark);
 }
 
 .bg-transparent-dark {
-  background-color: #908d8b;
+  background-color: var(--transparent-dark);
 }
 
 .bg-brown {
-  background-color: #b09a81;
+  background-color: var(--brown);
 }
 
 .bg-blue {
-  background-color: #1085c5;
+  background-color: var(--blue);
 }
 
 .bg-image::before {
@@ -505,27 +518,27 @@ input::placeholder {
 }
 
 .text-brown {
-	color: #b09a81;
+	color: var(--brown);
 }
 
 .text-main-dark {
-  color: #42413c;
+  color: var(--main-dark);
 }
 
 .text-transparent-dark {
-  color: #908d8b;
+  color: var(--transparent-dark);
 }
 
 .text-transparent-white {
-	color: #d7ccc0;
+	color: var(--transparent-white);
 }
 
 .text-orange {
-  color: #fe8a02;
+  color: var(--orange);
 }
 
 .text-white {
-  color: #fff;
+  color: var(--white);
 }
 
 .text-center {
