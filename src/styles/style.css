@@ -560,6 +560,11 @@ input::placeholder {
 
 /* z */
 
+.z-index-10000 {
+  position: relative;
+  z-index: 10000;
+}
+
 .z-index-10100 {
   position: relative;
   z-index: 10100;
