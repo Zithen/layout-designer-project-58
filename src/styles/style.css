@@ -52,8 +52,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -363,6 +361,18 @@ input::placeholder {
 
 .card-select {
   list-style: none;
+}
+
+.list-none {
+  list-style: none;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 .card-select:hover {
