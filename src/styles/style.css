@@ -460,6 +460,10 @@ input::placeholder {
   padding-top: 55px;
 }
 
+.padding-top-100 {
+  padding-top: 100px;
+}
+
 .pos-absolute {
   position: absolute;
 }
