@@ -86,11 +86,11 @@ time,
 mark,
 audio,
 video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -106,54 +106,55 @@ hgroup,
 menu,
 nav,
 section {
-		display: block;
+  display: block;
 }
 
 ol,
 ul {
-		list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-		quotes: none;
+  quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-		content: '';
-		content: none;
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
 }
 
 table {
-		border-collapse: collapse;
-		border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
-	  box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* reset END */
 
-/*------------------------------------------------------------------*/
+/* ------------------------------------------------------------------ */
 
 /* font-face */
 
 /* open-sans-regular - latin-ext_latin_cyrillic-ext_cyrillic */
 
 @font-face {
-		font-family: opensans;
-	  font-style: normal;
-	  font-weight: 400;
-	  src: url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot'); /* IE9 Compat Modes */
-	  src: local(''),
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  font-family: opensans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2") format("woff2"), /* Super Modern Browsers */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff") format("woff"), /* Modern Browsers */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-regular.svg#OpenSans") format("svg"); /* Legacy iOS */
 }
 
 /* open-sans-700 - latin-ext_latin_cyrillic-ext_cyrillic */
@@ -162,13 +163,13 @@ table {
 	  font-family: opensans;
 	  font-style: normal;
 	  font-weight: 700;
-	  src: url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.eot'); /* IE9 Compat Modes */
-	  src: local(''),
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.woff') format('woff'), /* Modern Browsers */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
-	       url('../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+	  src: url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.eot"); /* IE9 Compat Modes */
+	  src: local(""),
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2") format("woff2"), /* Super Modern Browsers */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.woff") format("woff"), /* Modern Browsers */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.ttf") format("truetype"), /* Safari, Android, iOS */
+	       url("../styles/fonts/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic/open-sans-v34-latin-ext_latin_cyrillic-ext_cyrillic-700.svg#OpenSans") format("svg"); /* Legacy iOS */
 }
 
 /* neucha-regular - latin_cyrillic */
@@ -177,13 +178,13 @@ table {
 	  font-family: neucha;
 	  font-style: normal;
 	  font-weight: 400;
-	  src: url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
-	  src: local(''),
-	       url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	       url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-	       url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-	       url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	       url('../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.svg#Neucha') format('svg'); /* Legacy iOS */
+	  src: url("../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+	  src: local(""),
+	       url("../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	       url("../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.woff2") format("woff2"), /* Super Modern Browsers */
+	       url("../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.woff") format("woff"), /* Modern Browsers */
+	       url("../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+	       url("../styles/fonts/neucha-v17-latin_cyrillic/neucha-v17-latin_cyrillic-regular.svg#Neucha") format("svg"); /* Legacy iOS */
 }
 
 /* font-face END */
@@ -275,7 +276,7 @@ input::placeholder {
 		width: 100%;
 		height: 100%;
 
-		background-image: url('../styles/images/background.png');
+		background-image: url("../styles/images/background.png");
 		background-repeat: no-repeat;
 		background-size: cover;
 
@@ -291,7 +292,7 @@ input::placeholder {
 }
 
 .bg-main {
-	background-color: var(--main);
+		background-color: var(--main);
 }
 
 .bg-main-dark {
@@ -339,19 +340,19 @@ input::placeholder {
 }
 
 .btn-send:hover {
-	cursor: pointer;
+		cursor: pointer;
 }
 
 .btn-send::before {
-	position: absolute;
-	top: 15px;
-	left: 25px;
-	width: 20px;
-	height: 20px;
+		position: absolute;
+		top: 15px;
+		left: 25px;
+		width: 20px;
+		height: 20px;
 
-	background: url('../styles/images/send.svg') no-repeat center center/cover;
+		background: url("../styles/images/send.svg") no-repeat center center/cover;
 
-	content: "";
+		content: "";
 }
 
 /* b END */
@@ -360,14 +361,14 @@ input::placeholder {
 
 /* c */
 .card-select:hover {
-	background-color: var(--main);
-	color: var(--white);
+		background-color: var(--main);
+		color: var(--white);
 }
 
 .card-select:hover h2,
 .card-select:hover h3 {
-	background-color: var(--main);
-	color: var(--white)
+		background-color: var(--main);
+		color: var(--white);
 }
 
 /* c END */
@@ -376,7 +377,7 @@ input::placeholder {
 
 /* d */
 .display-flex {
-  display: flex;
+		display: flex;
 }
 
 /* d END */
@@ -386,79 +387,79 @@ input::placeholder {
 /* f */
 
 .filter {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+		filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .flex-basis-423 {
-	flex-basis: 423px;
+		flex-basis: 423px;
 }
 
 .flex-basis-540 {
-	flex-basis: 540px;
+		flex-basis: 540px;
 }
 
 .flex-column {
-  flex-direction: column;
+		flex-direction: column;
 }
 
 .flex-space-between {
-	justify-content: space-between;
+		justify-content: space-between;
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+		flex-wrap: wrap;
 }
 
 .flex-x-center {
-  justify-content: center;
+		justify-content: center;
 }
 
 .flex-y-center {
-  align-items: center;
+		align-items: center;
 }
 
 .font-neucha-normal {
-  font-family: neucha, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+		font-family: neucha, sans-serif;
+		font-style: normal;
+		font-weight: 400;
 }
 
 .font-opensans-bold {
-  font-family: opensans, sans-serif;
-  font-style: normal;
-  font-weight: 700;
+		font-family: opensans, sans-serif;
+		font-style: normal;
+		font-weight: 700;
 }
 
 .form-reset {
-	border: 0;
+		border: 0;
 }
 
 .font-size-12 {
-  font-size: 12px;
+		font-size: 12px;
 }
 
 .font-size-14 {
-  font-size: 14px;
+		font-size: 14px;
 }
 
 .font-size-18 {
-  font-size: 18px;
+		font-size: 18px;
 }
 
 .font-size-24 {
-  font-size: 24px;
+		font-size: 24px;
 }
 
 .font-size-34 {
-  font-size: 34px;
+		font-size: 34px;
 }
 
 .font-size-52 {
-  font-size: 52px;
+		font-size: 52px;
 }
 
 .font-size-64 {
-  font-size: 64px;
+		font-size: 64px;
 }
 
 /* f END */
@@ -466,16 +467,17 @@ input::placeholder {
 /*----------------------------------------------------------------------------*/
 
 /* h */
+
 .height-50 {
-  height: 50px;
+		height: 50px;
 }
 
 .height-190 {
-	height: 190px;
+		height: 190px;
 }
 
 .height-525 {
-  height: 525px;
+		height: 525px;
 }
 
 /* h END */
@@ -485,7 +487,7 @@ input::placeholder {
 /* l */
 
 .line-height-1 {
-  line-height: 1;
+		line-height: 1;
 }
 
 /* l END */
@@ -495,47 +497,47 @@ input::placeholder {
 /* m */
 
 .margin-bottom-9 {
-	margin-bottom: 9px;
+		margin-bottom: 9px;
 }
 
 .margin-bottom-16 {
-	margin-bottom: 16px;
+		margin-bottom: 16px;
 }
 
 .margin-bottom-20 {
-  margin-bottom: 20px;
+		margin-bottom: 20px;
 }
 
 .margin-bottom-30 {
-  margin-bottom: 30px;
+		margin-bottom: 30px;
 }
 
 .margin-bottom-40 {
-  margin-bottom: 40px;
+		margin-bottom: 40px;
 }
 
 .margin-bottom-222 {
-	margin-bottom: 180px;
+		margin-bottom: 180px;
 }
 
 .margin-left-30 {
-  margin-left: 30px;
+		margin-left: 30px;
 }
 
 .margin-right-30 {
-  margin-right: 30px;
+		margin-right: 30px;
 }
 
 .margin-top-20 {
-	margin-top: 20px;
+		margin-top: 20px;
 }
 
 .margin-top-60 {
-  margin-top: 60px;
+		margin-top: 60px;
 }
 
 .margin-top-100 {
-	margin-top: 100px;
+		margin-top: 100px;
 }
 
 /* m END */
@@ -545,63 +547,63 @@ input::placeholder {
 /* p */
 
 .padding-15 {
-	padding: 15px;
+		padding: 15px;
 }
 
 .padding-24 {
-  padding: 24px;
+		padding: 24px;
 }
 
 .padding-100-0 {
-  padding: 100px 0;
+		padding: 100px 0;
 }
 
 .padding-bottom-5 {
-  padding-bottom: 5px;
+		padding-bottom: 5px;
 }
 
 .padding-bottom-16 {
-  padding-bottom: 16px;
+		padding-bottom: 16px;
 }
 
 .padding-bottom-30 {
-  padding-bottom: 30px;
+		padding-bottom: 30px;
 }
 
 .padding-bottom-40 {
-  padding-bottom: 40px;
+		padding-bottom: 40px;
 }
 
 .padding-bottom-55 {
-  padding-bottom: 55px;
+		padding-bottom: 55px;
 }
 
 .padding-left-10 {
-  padding-left: 10px;
+		padding-left: 10px;
 }
 
 .padding-left-55 {
-  padding-left: 55px;
+		padding-left: 55px;
 }
 
 .padding-top-5 {
-  padding-top: 5px;
+		padding-top: 5px;
 }
 
 .padding-top-55 {
-  padding-top: 55px;
+		padding-top: 55px;
 }
 
 .padding-top-100 {
-  padding-top: 100px;
+		padding-top: 100px;
 }
 
 .pos-absolute {
-  position: absolute;
+		position: absolute;
 }
 
 .pos-relative {
-  position: relative;
+		position: relative;
 }
 
 /* p END */
@@ -611,43 +613,43 @@ input::placeholder {
 /* t */
 
 .text-brown {
-	color: var(--brown);
+		color: var(--brown);
 }
 
 .text-center {
-  text-align: center;
+		text-align: center;
 }
 
 .text-main {
-  color: var(--main);
+		color: var(--main);
 }
 
 .text-main-dark {
-  color: var(--main-dark);
+		color: var(--main-dark);
 }
 
 .text-transparent-dark {
-  color: var(--transparent-dark);
+		color: var(--transparent-dark);
 }
 
 .text-transparent-white {
-	color: var(--transparent-white);
+		color: var(--transparent-white);
 }
 
 .text-upper {
-  text-transform: uppercase;
+		text-transform: uppercase;
 }
 
 .text-vertical-center {
-  vertical-align: middle;
+		vertical-align: middle;
 }
 
 .text-white {
-  color: var(--white);
+		color: var(--white);
 }
 
 .transition-05 {
-	transition: 2s;
+		transition: 2s;
 }
 
 /* t END */
@@ -657,19 +659,19 @@ input::placeholder {
 /* w */
 
 .width-100-proc {
-  width: 100vw;
+		width: 100vw;
 }
 
 .width-148 {
-  width: 148px;
+		width: 148px;
 }
 
 .width-350 {
-  width: 350px;
+		width: 350px;
 }
 
 .width-1110 {
-  width: 1110px;
+		width: 1110px;
 }
 
 /* w END */
@@ -679,8 +681,8 @@ input::placeholder {
 /* z */
 
 .z-index-10100 {
-  position: relative;
-  z-index: 10100;
+		position: relative;
+		z-index: 10100;
 }
 
 /* z END */
