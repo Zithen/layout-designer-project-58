@@ -109,10 +109,7 @@ section {
   display: block;
 }
 
-ol,
-ul {
-  list-style: none;
-}
+
 
 blockquote,
 q {
@@ -363,6 +360,11 @@ input::placeholder {
 /* ----------------------------------------------------------------------- */
 
 /* c */
+
+.card-select {
+  list-style: none;
+}
+
 .card-select:hover {
   background-color: var(--main);
   color: var(--white);
