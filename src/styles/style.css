@@ -361,18 +361,6 @@ input::placeholder {
   list-style: none;
 }
 
-.list-none {
-  list-style: none;
-}
-
-ol {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
 .card-select:hover {
   background-color: var(--main);
   color: var(--white);
@@ -400,7 +388,7 @@ ol {
 /* f */
 
 .filter {
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .flex-basis-423 {
@@ -501,6 +489,12 @@ ol {
 
 .line-height-1 {
   line-height: 1;
+}
+
+/* For tests otherwise additional block didn't pass check */
+
+.list-none {
+  list-style: none;
 }
 
 /* l END */
